@@ -26,3 +26,34 @@ console.log("convert course string into an array",student.course.split(","))
 
 //display the length of student name
 console.log("convert course string into an array",student.name.length)
+
+
+
+
+
+//array operation
+
+//add "swimming" to hobbies
+student.hobbies.push("swimming");
+console.log(student.hobbies);
+//remove the last hobby
+student.hobbies.pop();
+console.log(student.hobbies);
+//add "drawing" at the beginning of hobbies
+student.hobbies.unshift("drawing");
+console.log(student.hobbies);
+//remove the first hobby
+student.hobbies.shift();
+console.log(student.hobbies);
+//merge hobbies with course array
+
+//check if "react" exists in course array
+
+
+//find index of "js" in course array
+
+//extract first two marks
+
+//remove one failed subject mark (less than 40) using splice
+
+//convert hobbies array into a string
