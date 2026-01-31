@@ -46,7 +46,7 @@ console.log(student.hobbies);
 student.hobbies.shift();
 console.log(student.hobbies);
 //merge hobbies with course array
-
+console.log("merge hobies with coursse array",[...student.hobbies, ...student.course.split(",")])
 //check if "react" exists in course array
 
 
